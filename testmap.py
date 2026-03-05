@@ -8,7 +8,6 @@ from PyQt6.QtCore import Qt
 
 SAVE_FILE = "place.json"
 
-
 def load_place():
     try:
         with open(SAVE_FILE) as f:
